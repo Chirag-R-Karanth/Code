@@ -15,11 +15,11 @@ cd Initially
 Contributing
 Contributions are welcome! To contribute to Initially:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit them (git commit -m 'Add your feature').
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
+* Fork the repository.
+* Create a new branch (git checkout -b feature/your-feature).
+* Make your changes and commit them (git commit -m 'Add your feature').
+* Push to the branch (git push origin feature/your-feature).
+* Open a pull request.
 
 Contact
 For questions or feedback, feel free to reach out 
