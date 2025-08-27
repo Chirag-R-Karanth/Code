@@ -1,6 +1,6 @@
-#Howdy Yall
+# Howdy Yall
+
 Welcome to my very first project. This repository contains everything I know stored in a single repo. It is designed to keep a track of the stuff I know and the things I am yet to conquer.
-Table of Contents
 
 Installation
 To get started with Initially, follow these steps:
