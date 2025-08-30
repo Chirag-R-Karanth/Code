@@ -6,11 +6,11 @@ Installation
 To get started with Initially, follow these steps:
 
 Clone the repository:
-git clone https://github.com/Chirag-R-Karanth/Initially.git
+git clone https://github.com/Chirag-R-Karanth/Code.git
 
 
 Navigate to the project directory:
-cd Initially
+cd Code
 
 Contributing
 Contributions are welcome! To contribute to Initially:
