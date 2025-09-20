@@ -9,6 +9,7 @@ class stack
             void push();
             void pop();
             void peek();
+            stack();
 };
 
 stack::stack()
@@ -18,12 +19,18 @@ stack::stack()
 
 void stack::push()
 {
-    if(top == limit)
     cout<<"Please enter limit:";
     cin>>limit;
-    for(int i=0; i<limit; i++)
+    if(top == limit)
     {
-        cin>>stack_array[i];
+        cout<<"overflow";
+    }
+    else
+    {
+        for(int i=0; i<limit; i++)
+        {
+            cin>>stack_array[i];
+        }
     }
 }
 
@@ -42,8 +49,10 @@ int main()
         switch(num)
         {
             case 1:
+            {
                 s.push();
                 break;
+            }
         }
     }
     
