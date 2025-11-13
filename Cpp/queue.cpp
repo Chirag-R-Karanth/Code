@@ -7,14 +7,9 @@ class Queue
 
     public:
         void push();
-        //int peek();
+        void peek();
         //int drop();
 };
-
-Queue:Queue
-{
-  front=back=-1;
-}
 
 void Queue::push()
 {
@@ -25,11 +20,6 @@ void Queue::push()
     {
       cin>>queue_array[i];
     }
-}
-
-void Queue::peek()
-{
-  cout<<queue_array[back]
 }
 
 int main()

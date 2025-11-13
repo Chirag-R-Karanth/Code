@@ -13,7 +13,7 @@ class Rps
 int Rps::choice()
 {
     int choice;
-    cin >> choice;
+    cin >> choice;``
     return choice;
 }
 

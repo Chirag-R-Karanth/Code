@@ -1,1 +1,1 @@
-print("Hello from VScode")
+print("Hello mate")
