@@ -2,14 +2,14 @@ class AP {
 
     public boolean canMakeArithmeticProgression(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            for (int j = arr.length - i - 1; j > i; j--) {
+            for (int j = arr.length - 1; j > i; j--) {
                 if (arr[j - 1] > arr[j]) {
                     arr[j] = arr[j - 1] + arr[j];
                     arr[j - 1] = arr[j] - arr[j - 1];
                     arr[j] = arr[j] - arr[j - 1];
                 }
             }
-            System.out.print(arr[i]);
+            System.out.println(arr[i]);
         }
 
         for (int i = 0; i <= arr.length - 3; i++) {
@@ -38,7 +38,7 @@ class AP {
                 -229,
                 -54,
                 -194,
-                16,
+                +16,
                 -544,
                 -159,
                 -124,
