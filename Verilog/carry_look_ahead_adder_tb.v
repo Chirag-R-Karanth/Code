@@ -69,7 +69,7 @@ module carry_look_ahead_adder_tb();
     // Optional: Monitor for waveform viewing
     initial begin
         $dumpfile("cla_4bit.vcd");
-        $dumpvars(0, tb_cla_4bit);
+        $dumpvars(0, carry_look_ahead_adder);
     end
 
 endmodule

@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1ns/1ps;
 
 module full_adder_tb();
     reg a ,b ,cin;
@@ -6,18 +6,21 @@ module full_adder_tb();
 
     full_adder dut(sum, cout, a ,b, cin);
     initial begin
-        a=0; b=0; cin=0;#5
-        $display("sum=%b, cout=%b", sum, cout);
-        #100 ;
-        a=0; b=0; cin=1;#5
-        $display("sum=%b, cout=%b", sum, cout);
-        #100 ;
-        a=0; b=1; cin=1;#5
-        $display("sum=%b, cout=%b", sum, cout);
-        #100 ;
-        a=1; b=1; cin=1;#5
-        $display("sum=%b, cout=%b", sum, cout);
-        #100 $finish;
+        //initial begin
+            $monitor("time=%0t | a=%b b=%b cin=%b | sum=%b cout=%b",
+                      $time, a, b, cin, sum, cout);
+
+            a=0; b=0; cin=0;
+            #10          cin=1;
+            #10     b=1; cin=0;
+            #10          cin=1;
+            #10 a=1; b=0; cin=0;
+            #10          cin=1;
+            #10     b=1; cin=0;
+            #10          cin=1;
+
+            $finish;
+            //end
     end
 
     initial begin
