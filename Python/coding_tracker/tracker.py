@@ -1,68 +1,90 @@
-import requests
-import json
-import datetime
-import csv
 import argparse
+import csv
+import datetime
+import json
 
-# ---------- CONFIG ----------
+import requests
+
 OUTPUT_FILE = "coding_progress.csv"
 
 
 # ---------- HELPERS ----------
 def fetch_codewars(user):
     try:
-        url = f"https://www.codewars.com/api/v1/users/{user}"
-        r = requests.get(url).json()
+        url = f"https://www.codewars.com/users/{user}.json"
+        r = requests.get(url, timeout=10).json()
+
         return {
             "platform": "Codewars",
-            "rank": r["ranks"]["overall"]["name"],
-            "honor": r["honor"],
-            "completed_challenges": r["codeChallenges"]["totalCompleted"],
+            "rank": r.get("ranks", {}).get("overall", {}).get("name", "unranked"),
+            "honor": r.get("honor", 0),
+            "completed_challenges": r.get("codeChallenges", {}).get(
+                "totalCompleted", 0
+            ),
         }
-    except (requests.exceptions.RequestException, KeyError) as e:
+
+    except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
         print(f"Error fetching Codewars data for {user}: {e}")
+        return None
+
+
+def fetch_github(user):
+    try:
+        url = f"https://api.github.com/users/{user}"
+        resp = requests.get(url, timeout=10)
+
+        # ✅ Correct error check
+        if resp.status_code != 200:
+            raise ValueError(f"GitHub API error {resp.status_code}")
+
+        r = resp.json()
+
+        created_at = datetime.datetime.strptime(
+            r["created_at"], "%Y-%m-%dT%H:%M:%SZ"
+        ).date()
+
+        account_age_days = (datetime.date.today() - created_at).days
+
+        return {
+            "platform": "GitHub",
+            "public_repos": r.get("public_repos", 0),
+            "followers": r.get("followers", 0),
+            "following": r.get("following", 0),
+            "account_age_days": account_age_days,
+        }
+
+    except Exception as e:
+        print(f"Error fetching GitHub data for {user}: {e}")
         return None
 
 
 def fetch_leetcode(user):
     try:
-        url = "https://leetcode-stats-api.herokuapp.com/" + user
-        r = requests.get(url).json()
+        url = f"https://leetcode-stats-api.herokuapp.com/Chirag-R-Karanth/{user}"
+        r = requests.get(url, timeout=10).json()
         return {
             "platform": "LeetCode",
             "total_solved": r.get("totalSolved", 0),
             "easy_solved": r.get("easySolved", 0),
             "medium_solved": r.get("mediumSolved", 0),
             "hard_solved": r.get("hardSolved", 0),
-            "ranking": r.get("ranking", None),
+            "ranking": r.get("ranking"),
         }
     except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
         print(f"Error fetching LeetCode data for {user}: {e}")
         return None
 
 
-def fetch_codeforces(user):
-    try:
-        url = f"https://codeforces.com/api/user.info?handles={user}"
-        r = requests.get(url).json()["result"][0]
-        return {
-            "platform": "Codeforces",
-            "rank": r.get("rank", "unrated"),
-            "rating": r.get("rating", 0),
-            "maxRank": r.get("maxRank", "unrated"),
-            "maxRating": r.get("maxRating", 0),
-        }
-    except (requests.exceptions.RequestException, KeyError) as e:
-        print(f"Error fetching Codeforces data for {user}: {e}")
-        return None
-
-
 # ---------- MAIN ----------
 def main():
-    parser = argparse.ArgumentParser(description="Track coding progress from various platforms.")
-    parser.add_argument("--codewars", help="Codewars username")
-    parser.add_argument("--leetcode", help="LeetCode username")
-    parser.add_argument("--codeforces", help="Codeforces handle")
+    parser = argparse.ArgumentParser(
+        description="Track coding progress from various platforms."
+    )
+    parser.add_argument("--codewars")
+    parser.add_argument("--leetcode")
+    parser.add_argument("--github", help="GitHub username")
+
+    # parser.add_argument("--codeforces")
     args = parser.parse_args()
 
     today = datetime.date.today().isoformat()
@@ -72,64 +94,46 @@ def main():
         results.append(fetch_codewars(args.codewars))
     if args.leetcode:
         results.append(fetch_leetcode(args.leetcode))
-    if args.codeforces:
-        results.append(fetch_codeforces(args.codeforces))
+    if args.github:
+        results.append(fetch_github(args.github))
+    # if args.codeforces:
+    #   results.append(fetch_codeforces(args.codeforces))
 
-    results = [r for r in results if r]  # Filter out None results from failed fetches
-
+    results = [r for r in results if r]
     if not results:
         print("No data fetched. Exiting.")
         return
 
-    # Save to CSV
-    all_keys = set()
-    for r in results:
-        all_keys.update(r.keys())
-
-    fieldnames = ["date"] + sorted(list(all_keys))
-
-    # Combine results into a single dictionary
-    combined_results = {"date": today}
+    combined = {"date": today}
     for r in results:
         platform = r.pop("platform").lower()
-        for key, value in r.items():
-            combined_results[f"{platform}_{key}"] = value
+        for k, v in r.items():
+            combined[f"{platform}_{k}"] = v
 
-    # Save to CSV
-    fieldnames = sorted(combined_results.keys())
-
+    rows = []
     try:
-        with open(OUTPUT_FILE, 'r+', newline='') as f:
-            # Read existing data
+        with open(OUTPUT_FILE, "r", newline="") as f:
             reader = csv.DictReader(f)
             rows = list(reader)
-            fieldnames = reader.fieldnames
-
-            # Update today's row if it exists
-            updated = False
-            for i, row in enumerate(rows):
-                if row['date'] == today:
-                    rows[i] = {**row, **combined_results}
-                    updated = True
-                    break
-
-            if not updated:
-                rows.append(combined_results)
-
-            # Write back to the file
-            f.seek(0)
-            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore', restval='')
-            writer.writeheader()
-            writer.writerows(rows)
-            f.truncate()
-
+            fieldnames = sorted(set(reader.fieldnames) | set(combined.keys()))
     except FileNotFoundError:
-        with open(OUTPUT_FILE, 'w', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore', restval='')
-            writer.writeheader()
-            writer.writerow(combined_results)
+        fieldnames = sorted(combined.keys())
+    else:
+        updated = False
+        for i, row in enumerate(rows):
+            if row["date"] == today:
+                rows[i] = {**row, **combined}
+                updated = True
+                break
+        if not updated:
+            rows.append(combined)
 
-    print("Data saved to", OUTPUT_FILE)
+    with open(OUTPUT_FILE, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, restval="")
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print("✅ Data saved to", OUTPUT_FILE)
 
 
 if __name__ == "__main__":
