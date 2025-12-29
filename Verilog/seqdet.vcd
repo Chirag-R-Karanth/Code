@@ -1,0 +1,127 @@
+$date
+	Sun Dec 28 20:54:13 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module sequence_Detecter_tb $end
+$var wire 1 ! q $end
+$var reg 1 " a $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$scope module dut $end
+$var wire 1 " a $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var parameter 2 % S0 $end
+$var parameter 2 & S1 $end
+$var parameter 2 ' S2 $end
+$var reg 2 ( NS [1:0] $end
+$var reg 2 ) PS [1:0] $end
+$var reg 1 ! q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 '
+b1 &
+b0 %
+$end
+#0
+$dumpvars
+bx )
+b0 (
+1$
+0#
+0"
+0!
+$end
+#5000
+b0 )
+1#
+#10000
+0#
+#12000
+0$
+#15000
+1#
+#20000
+0#
+#22000
+b1 (
+1"
+#25000
+b1 )
+1#
+#30000
+0#
+#32000
+b10 (
+0"
+#35000
+b0 (
+b10 )
+1#
+#40000
+0#
+#42000
+1!
+b1 (
+1"
+#45000
+0!
+b1 )
+1#
+#50000
+0#
+#52000
+b10 (
+0"
+#55000
+b0 (
+b10 )
+1#
+#60000
+0#
+#62000
+1!
+b1 (
+1"
+#65000
+0!
+b1 )
+1#
+#70000
+0#
+#75000
+1#
+#80000
+0#
+#82000
+b10 (
+0"
+#85000
+b0 (
+b10 )
+1#
+#90000
+0#
+#92000
+1!
+b1 (
+1"
+#95000
+0!
+b1 )
+1#
+#100000
+0#
+#105000
+1#
+#110000
+0#
+#112000
