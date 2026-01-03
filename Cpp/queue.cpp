@@ -22,8 +22,17 @@ void Queue::push()
     }
 }
 
+void Queue::peek()
+{
+    cout<<"Enter the Place";
+    int Place;
+    cin>>Place;
+    cout<<"Element at Place "<<Place<<" is "<<queue_array[Place];
+}
+
 int main()
 {
   Queue queue;
   queue.push();
+  queue.peek();
 }
