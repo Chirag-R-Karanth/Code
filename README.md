@@ -2,7 +2,6 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Chirag-R-Karanth/Code)
 ![GitHub language count](https://img.shields.io/github/languages/count/Chirag-R-Karanth/Code)
-![GitHub top language](https://img.shields.io/github/languages/top/Chirag-R-Karanth/Code)
 
 ## Description
 
