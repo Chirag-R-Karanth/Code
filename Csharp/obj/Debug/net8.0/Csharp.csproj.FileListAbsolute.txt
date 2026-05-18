@@ -1,0 +1,15 @@
+/home/neo_phantom_byte/Documents/Code/Csharp/bin/Debug/net8.0/Csharp
+/home/neo_phantom_byte/Documents/Code/Csharp/bin/Debug/net8.0/Csharp.deps.json
+/home/neo_phantom_byte/Documents/Code/Csharp/bin/Debug/net8.0/Csharp.runtimeconfig.json
+/home/neo_phantom_byte/Documents/Code/Csharp/bin/Debug/net8.0/Csharp.dll
+/home/neo_phantom_byte/Documents/Code/Csharp/bin/Debug/net8.0/Csharp.pdb
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/Csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/Csharp.AssemblyInfoInputs.cache
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/Csharp.AssemblyInfo.cs
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/Csharp.csproj.CoreCompileInputs.cache
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/Csharp.sourcelink.json
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/Csharp.dll
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/refint/Csharp.dll
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/Csharp.pdb
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/Csharp.genruntimeconfig.cache
+/home/neo_phantom_byte/Documents/Code/Csharp/obj/Debug/net8.0/ref/Csharp.dll
