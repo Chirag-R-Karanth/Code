@@ -1,0 +1,679 @@
+    1  docker compose up -d
+    2  cd server/
+    3  docker compose up -d
+    4  npm install
+    5  npx prisma db push
+    6  npm run seed
+    7  npm run dev
+    8  server
+    9  cd server
+   10  npm run dev
+   11  exit
+   12  cd cli
+   13  npm run dev
+   14  cdexit
+   15  exit
+   16  cd server/
+   17  npm run dev
+   18  exit
+   19  cd client
+   20  npm run dev
+   21  cd ..
+   22  git add .
+   23  git commit -m "added logging and buttons"
+   24  git push origin main
+   25  exit
+   26  clear
+   27  ls
+   28  exit
+   29  sudo dnf update
+   30  yazi
+   31  sudo dnf install yazi
+   32  cd .config/
+   33  gemini
+   34  exit
+   35  code .
+   36  exit
+   37  cd docu
+   38  code .
+   39  exit
+   40  gemini
+   41  exit
+   42  git clone git@github.com:Chirag-R-Karanth/dotfiles-for-all.git
+   43  cd dotfiles-for-all/
+   44  clear
+   45  code .
+   46  clear
+   47  cd Documents/dotfiles-for-all/
+   48  code .
+   49  gemini
+   50  cd ..
+   51  gemini
+   52  exit
+   53  split
+   54  exit
+   55  sudo dnf install ghostyy
+   56  dnf copr enable scottames/ghostty
+   57  dnf install ghostty
+   58  dnf copr enable scottames/ghostty
+   59  sudo dnf install ghostty
+   60  sudo dnf copr enable scottames/ghostty
+   61  sudo dnf install ghostty
+   62  exit
+   63  hello
+   64  whoami
+   65  clear
+   66  ls
+   67  clear
+   68  waybar -c waybar/config -s waybar/style.css
+   69  cd Documents/
+   70  ls
+   71  cd dotfiles-for-all/
+   72  waybar -c waybar/config -s waybar/style.css
+   73  bluetoothctl
+   74  exit
+   75  cd Documents/dotfiles-for-all/
+   76  code .
+   77  exit
+   78  ls
+   79  exit
+   80  ls
+   81  clear
+   82  ll
+   83  eww -c eww close dashboard
+   84  exit
+   85  cd Documents/dotfiles-for-all/
+   86  waybar -c waybar/config -s waybar/style.css
+   87  ghostty --config-file=ghostty/config
+   88  alacritty --config-file alacritty/alacritty.toml
+   89  ./eww/scripts/toggle.sh dashboard -c eww
+   90  ./eww/scripts/toggle.sh dashboard -c eww
+   91  ./eww/scripts/toggle.sh dashboard -c eww
+   92  bluetoothctl 
+   93  clear
+   94  cd Documents/dotfiles-for-all/
+   95  git add .
+   96  git commit -m "initial skeleton and barebones"
+   97  git push origin main
+   98  exit
+   99  cd Documents/dotfiles-for-all/
+  100  clear
+  101  waybar -c waybar/config -s waybar/style.css
+  102  exit
+  103  exit
+  104  bluetoothctl 
+  105  exit
+  106  
+  107  exit
+  108  sudo dnf copr enable retrozinndev/tlauncher   
+  109  sudo dnf install tlauncher   
+  110  tlauncher
+  111  sudo dnf install java-17-openjdk   
+  112  sudo dnf remove java-*-openjdk-headless   
+  113  sudo dnf install java-17-openjdk   
+  114  sudo dnf install -y adoptium-temurin-java-repository   
+  115  sudo dnf install -y temurin-17-jdk   
+  116  tmux
+  117  btop
+  118  top
+  119  tlauncher
+  120  sudo dnf install tlauncher   
+  121  tlauncher
+  122  java -jar TLauncher-*.jar   
+  123  sudo dnf update mesa-*
+  124  java -jar TLauncher-*.jar   
+  125  ls -l TLauncher*.jar   
+  126  ls
+  127  cd down
+  128  ls
+  129  cd ..
+  130  ll
+  131  java -jar TLauncher*.jar   
+  132  cd Downloads/
+  133  cd t
+  134  cd Tlauncher
+  135  cd ..
+  136  cd down
+  137  cd Tla
+  138  cd ..
+  139  cd Tlaunch
+  140  cd TLauncher.v17/
+  141  ls
+  142  java -jar TLauncher*.jar   
+  143  exit
+  144  cd Downloads/TLauncher.v17/
+  145  tlauncher
+  146  java -jar TLauncher*.jar   
+  147  clear
+  148  exit
+  149  cd Downloads/TLauncher.v17/
+  150  clear
+  151  ls
+  152  java -jar TLauncher*.jar   
+  153  exit
+  154  shutdown now
+  155  cd Downloads/TLauncher.v17/
+  156  java -jar TLauncher*.jar   
+  157  cd Downloads/TLauncher.v17/
+  158  java -jar TLauncher*.jar   
+  159  exit
+  160  cd Downloads/TLauncher.v17/
+  161  java -jar TLauncher*.jar   
+  162  NFO  - Start loading
+  163  18:54:46.562 b.g.c.Starter INFO  - LINUX
+  164  18:54:46.562 b.g.c.Starter INFO  - x64
+  165  18:54:46.566 b.g.u.DesktopUtil INFO  - Locked by file /home/neo_phantom_byte/.tlauncher/starter/protection.txt
+  166  18:54:46.577 b.g.c.Starter INFO  - app remote config: [https://repo.tlauncher.org/tlauncher-sources/prod/release/tlauncher/, https://repo.fastrepo.org/tlauncher-sources/prod/release/tlauncher/, http://advancedrepository.net/tlauncher-sources/prod/release/tlauncher/]
+  167  18:54:46.854 b.g.h.d.i.FileCacheServiceImpl INFO  - do head request -> https://repo.tlauncher.org/tlauncher-sources/prod/release/tlauncher/appConfig.json RequestMetadata(lastModified=Tue, 09 Jun 2026 07:59:51 GMT, eTag=W/6a27c7f7-119e, sha1=6c948def5c404ebfde9b2bd30b5bc90a4684e1b1, lastAccessAt=1781622098206) local file /home/neo_phantom_byte/.tlauncher/starter/cache/https_repo.tlauncher.org/tlauncher-sources/prod/release/tlauncher/appConfig.json
+  168  java -jar TLauncher*.jar   
+  169  clear
+  170  ls
+  171  exit
+  172  clear
+  173  exit
+  174  cd Documents/
+  175  ls
+  176  cd Chirag-R-Karanth.github.io/
+  177  ls
+  178  clear
+  179  exit
+  180  cd Downloads/TLauncher.v17/
+  181  java -jar TLauncher*.jar   
+  182  clear
+  183  java -jar TLauncher*.jar   
+  184  clear
+  185  ls
+  186  echo >> README-EN.txt 
+  187  ls
+  188  nvim README-EN.txt 
+  189  exit
+  190  ls
+  191  nautilus
+  192  clear
+  193  ls
+  194  ll
+  195  cd Documents/
+  196  ls
+  197  cd Chirag-R-Karanth.github.io/
+  198  exit
+  199  cd Downloads/
+  200  ls
+  201  tar xvf ArduinoAppLab_0.8.0_Linux_x86-64.tar.gz 
+  202  ./ArduinoAppLab_0.8.0_Linux_x86-64/
+  203  cd ./ArduinoAppLab_0.8.0_Linux_x86-64/
+  204  ls
+  205  chmod +x arduino-app-lab 
+  206  ls
+  207  ./arduino-app-lab 
+  208  exit
+  209  lsusb
+  210  dmesg | tail -30
+  211  lsusb
+  212  ls /dev/ttyUSB*
+  213  dmesg | tail -20
+  214  exit
+  215  ls
+  216  exit
+  217  dmesg | tail -20
+  218  lsusb
+  219  ❯ lsusb
+  220  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  221  Bus 001 Device 002: ID 1bcf:2b96 Sunplus Innovation Technology Inc. Integrated_Webcam_HD
+  222  Bus 001 Device 005: ID 8087:0a2b Intel Corp. Bluetooth wireless interface
+  223  Bus 001 Device 015: ID 046d:c534 Logitech, Inc. Nano Receiver
+  224  Bus 001 Device 017: ID 1a86:7523 QinHeng Electronics CH340 serial converter
+  225  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hu
+  226  clear
+  227  lsusb
+  228  ls /dev/tty*
+  229  dmesg | tail -30
+  230  sudo dnf install kernel-modules
+  231  lsmod | grep ch34
+  232  groups
+  233  sudo usermod -aG dialout $USER
+  234  lsusb
+  235  dmesg | tail -20
+  236  ls /dev/ttyACM* /dev/ttyUSB* 2>/dev/null
+  237  ls -l /dev/ttyUSB0
+  238  groups
+  239  ls -l /dev/ttyUSB0
+  240  cat /etc/group | grep -E 'uucp|dialout'
+  241  sudo usermod -aG uucp $USER
+  242  uucp
+  243  sudo usermod -aG uucp $USER
+  244  reboot
+  245  cd ..
+  246  cd 
+  247  cd chiragrk
+  248  exit
+  249  cat /etc/group | grep -E 'uucp|dialout'
+  250  ls -l /dev/ttyUSB0
+  251  groups
+  252  sudo chmod 666 /dev/ttyUSB0
+  253  ls -l /dev/ttyUSB0
+  254  sudo usermod -aG uucp neo_phantom_byte
+  255  sudo chmod 666 /dev/ttyUSB0
+  256  ls -l /dev/ttyUSB0
+  257  cat /etc/group | grep -E 'uucp|dialout'
+  258  exit
+  259  nmtui
+  260  clear
+  261  ls
+  262  ll
+  263  cd Documents/C
+  264  ls
+  265  nvim .
+  266  exit
+  267  cd Documents/
+  268  nvim
+  269  exit
+  270  nmtui
+  271  exit
+  272  nmtui
+  273  EXIT
+  274  exit
+  275  nmtui
+  276  exit
+  277  nmtui
+  278  clear
+  279  cl
+  280  git ls
+  281  git log
+  282  cd Code
+  283  git log
+  284  clear
+  285  ls
+  286  nu
+  287  exit
+  288  clear
+  289  exit
+  290  cd Documents/new_phishing/
+  291  ./artifact
+  292  cd Documents/new_phishing/
+  293  cd frontend/
+  294  cd ..
+  295  cd backend/
+  296  npm run dev
+  297  exit
+  298  cd Documents/new_phishing/
+  299  code .
+  300  exit
+  301  curl -fsSL https://antigravity.google/cli/install.sh | bash
+  302  agy
+  303  clear
+  304  cd Documents/
+  305  ls
+  306  rm flowchart.svg 
+  307  ls
+  308  cd Gamified-Phishing-Detection-Platform/
+  309  ls
+  310  cd ..
+  311  cd temp/
+  312  ls
+  313  cd ..
+  314  mkdir new_phishing && cd new_phishing
+  315  ls
+  316  antigravity 
+  317  agy
+  318  cd backend
+  319  cp .env.example .env
+  320  npm install
+  321  npm run dev
+  322  exit
+  323  ll
+  324  bat .env
+  325  cd ..
+  326  cd new_phishing/
+  327  cd backend/
+  328  ll
+  329  bat .env
+  330  cd src
+  331  ls
+  332  npm run dev
+  333  cd ..
+  334  npm run dev
+  335  exit
+  336  exit
+  337  exit
+  338  cd new
+  339  cd frontend/
+  340  npm run dev
+  341  exit
+  342  cd Downloads/
+  343  ls
+  344  \ls
+  345  ls
+  346  cd TLauncher.v17/
+  347  ls
+  348  ./TLauncher.jar
+  349  chmod +x TLauncher.jar 
+  350  ls
+  351  ./TLauncher.jar 
+  352  bat README-EN.txt 
+  353  sudo java -jar TLauncher.jar
+  354  clear
+  355  cd Downloads/TLauncher.v17/
+  356  ls
+  357  sudo java -jar TLauncher.jar
+  358  java -jar TLauncher.jar
+  359  hyprland
+  360  cd Documents/dotfiles-for-all/
+  361  hyprland
+  362  exit
+  363  ollama
+  364  clear
+  365  ls
+  366  cd Documents/
+  367  ls
+  368  cd dotfiles-for-all/
+  369  ls
+  370  cd bash
+  371  ls
+  372  cd ..
+  373  ll
+  374  lt
+  375  argy
+  376  agy
+  377  clear
+  378  ls
+  379  cd Documents/dotfiles-for-all/
+  380  ls
+  381  cd alacritty/
+  382  ls
+  383  cd ..
+  384  hyprland
+  385  bluetoothctl 
+  386  clear
+  387  man
+  388  man man
+  389  nvim'
+  390  hello
+  391  '
+  392  nvim
+  393  exit
+  394  cd Documents/dotfiles-for-all/
+  395  ls
+  396  cd alacritty/
+  397  ls
+  398  bash alacritty.toml 
+  399  ls
+  400  exit
+  401  ls
+  402  exit
+  403  cd Documents/dotfiles-for-all/
+  404  ls
+  405  cd eww/
+  406  ls
+  407  cd scripts/
+  408  ls
+  409  ./music.sh 
+  410  chmod +x music.sh 
+  411  ls
+  412  ./music.sh 
+  413  cd ..
+  414  cd ..
+  415  code .
+  416  bash --rcfile ~/Documents/dotfiles-for-all/bash/.bashrc
+  417  waybar -c ~/Documents/dotfiles-for-all/waybar/config -s ~/Documents/dotfiles-for-all/waybar/style.css
+  418  ghostty --config-file=~/Documents/dotfiles-for-all/ghostty/config
+  419  hyprlock --config ~/Documents/dotfiles-for-all/hypr/hyprlock.conf
+  420  hyprlock --config ~/Documents/dotfiles-for-all/hypr/hyprlock.conf
+  421  # First, start the Eww daemon using your custom folder
+  422  eww --config ~/Documents/dotfiles-for-all/eww daemon
+  423  # Then, open a specific widget (replace 'your_window_name' with a window defined in your eww.yuck)
+  424  eww --config ~/Documents/dotfiles-for-all/eww open your_window_name
+  425  eww --config ~/Documents/dotfiles-for-all/eww open powermenu
+  426  cd Documents/dot
+  427  ls
+  428  cd bash/
+  429  ls
+  430  ll
+  431  cd ..
+  432  ll
+  433  cd alacritty/
+  434  cd ..
+  435  clear
+  436  nvim
+  437  nvim .
+  438  cd Documents/dotfiles-for-all/
+  439  code .
+  440  eww --config ~/Documents/dotfiles-for-all/eww open music
+  441  eww --config ~/Documents/dotfiles-for-all/eww open Calendar
+  442  exit
+  443  eww kill
+  444  cd eww state
+  445  eww state
+  446  eww kill
+  447  eww daemon
+  448  eww kill
+  449  exit
+  450  bluetoothctl 
+  451  exit
+  452  cd .config/hypr/
+  453  ls
+  454  ll
+  455  cd .config/
+  456  ls
+  457  cd cava
+  458  ls
+  459  cava
+  460  ls
+  461  ll
+  462  cd ../../
+  463  lss
+  464  ls
+  465  nvim hyprland.conf
+  466  exit
+  467  bluetoothctl 
+  468  exit
+  469  exit
+  470  cd Documents/dotfiles-for-all/
+  471  hyprlock --config ~/Documents/dotfiles-for-all/hypr/hyprlock.conf
+  472  ls
+  473  starship --config ~/Documents/dotfiles-for-all/starship/starship.toml 
+  474  cd starship/
+  475  ls
+  476  nvim starship.toml 
+  477  starship --config ~/Documents/dotfiles-for-all/starship/starship.toml 
+  478  bash --config ~/Documents/dotfiles-for-all/starship/starship.toml 
+  479  bash --login
+  480  exit
+  481  bluetoothctl
+  482  clear
+  483  exit
+  484  bluetoothctl 
+  485  exit
+  486  nmtui
+  487  xit
+  488  bluetoothctl 
+  489  nmtui
+  490  clear
+  491  clear
+  492  agy
+  493  cd Documents
+  494  ls
+  495  cd Chirag-R-Karanth.github.io/
+  496  ls
+  497  agy
+  498  clear
+  499  nmtui
+  500  nmtui
+  501  cd Documents/git
+  502  cd Documents/Chirag-R-Karanth.github.io/
+  503  ls
+  504  code .
+  505  ls
+  506  fzf
+  507  ya
+  508  yazi
+  509  exit
+  510  ls
+  511  cd Documents/
+  512  ls
+  513  cd temp/
+  514  ls
+  515  ssh -T git@github.com verify
+  516  clear
+  517  ls
+  518  agy
+  519  ls
+  520  nvim README.md 
+  521  clear
+  522  cd..
+  523  cd ..
+  524  clear
+  525  exit
+  526  clear
+  527  exit
+  528  cd bin
+  529  cat matlab
+  530  exit
+  531  ls
+  532  clear
+  533  ls
+  534  nvim
+  535  exi
+  536  exit
+  537  whoami
+  538  clear
+  539  cd Documents/
+  540  ls
+  541  cd Code/
+  542  ls
+  543  git add .
+  544  git status
+  545  git commit -m "assembly test files"
+  546  git push origin main
+  547  ls
+  548  cd Matlab/
+  549  ls
+  550  xdg-open img\ and\ fft\ img.fig 
+  551  matlab
+  552  mat
+  553  Matlab
+  554  matlabroot
+  555  /usr/local/MATLAB
+  556  ls /usr/local/MATLAB
+  557  cd /usr/local/MATLAB/R2025b/
+  558  ls
+  559  cd bin
+  560  ls
+  561  ./matlab -nodesktop
+  562  clear
+  563  cd ..
+  564  cd 
+  565  clear
+  566  cd Documents/
+  567  ls
+  568  for i;echo hello
+  569  figs = openfig('TheFigFile.fig');
+  570  for K = 1 : length(figs)
+  571     filename = 'figure_%02d.jpg';
+  572     saveas(figs(K), filename);
+  573  end
+  574  clear
+  575  cd /usr/local/MATLAB/R2025b/
+  576  ls
+  577  cd m
+  578  cd MATLAB
+  579  cd R2025
+  580  ls
+  581  cd bin/
+  582  cd m3iregistry/
+  583  cd ..
+  584  l
+  585  ls
+  586  bat uninstaller_comp_deps.txt 
+  587  cat ProductData.json 
+  588  ./matlab -nodesktop
+  589  ./matlab
+  590  exit
+  591  pid
+  592  ps
+  593  date
+  594  pwd
+  595  cd Documents/Code/
+  596  ls
+  597  mkdir Bash_scripting
+  598  cd Bash_scripting/
+  599  ls
+  600  which bash
+  601  vi run_all.sh
+  602  chmod +x run_all.sh 
+  603  ./run_all.sh 
+  604  vi run_all.sh
+  605  chmod +x run_all.sh 
+  606  ./run_all.sh 
+  607  vi run_all.sh
+  608  chmod +x run_all.sh 
+  609  ./run_all.sh 
+  610  exit
+  611  cd Bash
+  612  ls
+  613  ./run_all.sh 
+  614  vi run_all.sh 
+  615  ./run_all.sh 
+  616  vi run_all.sh 
+  617  ./run_all.sh 
+  618  cd ~
+  619  cd Bash
+  620  clear
+  621  pwd
+  622  vi run_all.sh 
+  623  ./run_all.sh 
+  624  vi new.sh
+  625  chmod +x new.sh 
+  626  ls
+  627  ./new.sh 
+  628  vi new.sh 
+  629  country = "India"
+  630  country = India
+  631  $country = India
+  632  vi new.sh 
+  633  ./new.sh 
+  634  country=india
+  635  echo $country
+  636  vi new.sh 
+  637  ./new.sh 
+  638  vi new.sh 
+  639  ./new.sh 
+  640  vi new.sh 
+  641  ./new.sh 
+  642  clea
+  643  clear
+  644  ls
+  645  vi intro.sh
+  646  ls
+  647  chmod +x intro.sh 
+  648  ./intro.sh 
+  649  vi intro.sh
+  650  ./intro.sh 
+  651  while read line; do echo $line; done < input.txt
+  652  vi input.txt
+  653  while read line; do echo $line; done < input.txt
+  654  vi arguments.sh
+  655  chmod +x arguments.sh 
+  656  ./arguments.sh  hello
+  657  ./arguments.sh  mateo fun
+  658  chmod +x arguments.sh 
+  659  vi arguments.sh
+  660  ./arguments.sh  mateo fun
+  661  vi write_to_file.sh
+  662  ls
+  663  vi write_to_file.sh
+  664  vi output.txt
+  665  ls
+  666  chmod +x write_to_file.sh 
+  667  bash write_to_file.sh 
+  668  vi output.txt 
+  669  vi write_to_file.sh 
+  670  bash write_to_file.sh 
+  671  vi output.txt 
+  672  echo "new file" >out.txt
+  673  vi out.txt 
+  674  ls > all_files.txt
+  675  ls
+  676  vi all_files.txt 
+  677  df
+  678  history
+  679  history > executed_commands.txt

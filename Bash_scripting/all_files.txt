@@ -1,0 +1,9 @@
+all_files.txt
+arguments.sh
+input.txt
+intro.sh
+new.sh
+out.txt
+output.txt
+run_all.sh
+write_to_file.sh
