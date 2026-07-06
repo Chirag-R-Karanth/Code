@@ -1,9 +1,13 @@
 all_files.txt
 arguments.sh
+executed_commands.txt
+forloop.sh
+ifstatement.sh
 input.txt
 intro.sh
 new.sh
 out.txt
 output.txt
 run_all.sh
+whileloop.sh
 write_to_file.sh

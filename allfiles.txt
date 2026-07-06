@@ -1,0 +1,415 @@
+.
+├── allfiles.txt
+├── Assembly
+│   ├── hello
+│   ├── hello.o
+│   ├── hello.s
+│   ├── test.asm
+│   └── test.s
+├── Bash_scripting
+│   ├── all_files.txt
+│   ├── arguments.sh
+│   ├── executed_commands.txt
+│   ├── forloop.sh
+│   ├── ifstatement.sh
+│   ├── input.txt
+│   ├── intro.sh
+│   ├── new.sh
+│   ├── out.txt
+│   ├── output.txt
+│   ├── run_all.sh
+│   ├── whileloop.sh
+│   └── write_to_file.sh
+├── C
+│   ├── a.out
+│   └── Hello.c
+├── codecrafters-shell-java
+│   ├── codecrafters.yml
+│   ├── pom.xml
+│   ├── README.md
+│   ├── src
+│   │   └── main
+│   │       └── java
+│   │           └── Main.java
+│   ├── target
+│   │   ├── classes
+│   │   └── test-classes
+│   └── your_program.sh
+├── compose.debug.yaml
+├── compose.yaml
+├── Cpp
+│   ├── a.out
+│   ├── and
+│   ├── cd
+│   ├── Hello
+│   ├── Hello.cpp
+│   ├── linkedlist.cpp
+│   ├── my_opengl_project
+│   ├── q
+│   ├── queue
+│   ├── queue.cpp
+│   ├── rps.cpp
+│   ├── stack
+│   ├── stack.cpp
+│   └── test.cpp
+├── Csharp
+│   ├── bin
+│   │   └── Debug
+│   │       └── net8.0
+│   │           ├── Csharp
+│   │           ├── Csharp.deps.json
+│   │           ├── Csharp.dll
+│   │           ├── Csharp.pdb
+│   │           └── Csharp.runtimeconfig.json
+│   ├── Csharp.csproj
+│   ├── hello.cs
+│   ├── obj
+│   │   ├── Csharp.csproj.nuget.dgspec.json
+│   │   ├── Csharp.csproj.nuget.g.props
+│   │   ├── Csharp.csproj.nuget.g.targets
+│   │   ├── Debug
+│   │   │   └── net8.0
+│   │   │       ├── apphost
+│   │   │       ├── Csharp.AssemblyInfo.cs
+│   │   │       ├── Csharp.AssemblyInfoInputs.cache
+│   │   │       ├── Csharp.assets.cache
+│   │   │       ├── Csharp.csproj.CoreCompileInputs.cache
+│   │   │       ├── Csharp.csproj.FileListAbsolute.txt
+│   │   │       ├── Csharp.dll
+│   │   │       ├── Csharp.GeneratedMSBuildEditorConfig.editorconfig
+│   │   │       ├── Csharp.genruntimeconfig.cache
+│   │   │       ├── Csharp.GlobalUsings.g.cs
+│   │   │       ├── Csharp.pdb
+│   │   │       ├── Csharp.sourcelink.json
+│   │   │       ├── ref
+│   │   │       │   └── Csharp.dll
+│   │   │       └── refint
+│   │   │           └── Csharp.dll
+│   │   ├── project.assets.json
+│   │   └── project.nuget.cache
+│   └── Program.cs
+├── CyberSec
+│   ├── cybersecurity_notes.md
+│   └── cybersecurity_roadmap.md
+├── Dockerfile
+├── Front_End
+│   ├── chirag-portfolio
+│   │   ├── app
+│   │   │   ├── about
+│   │   │   │   └── page.tsx
+│   │   │   ├── articles
+│   │   │   │   └── page.tsx
+│   │   │   ├── contact
+│   │   │   │   └── page.tsx
+│   │   │   ├── favicon.ico
+│   │   │   ├── globals.css
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   ├── photography
+│   │   │   │   └── page.tsx
+│   │   │   ├── projects
+│   │   │   │   └── page.tsx
+│   │   │   └── uses
+│   │   │       └── page.tsx
+│   │   ├── eslint.config.mjs
+│   │   ├── next.config.ts
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   ├── postcss.config.mjs
+│   │   ├── public
+│   │   │   ├── file.svg
+│   │   │   ├── globe.svg
+│   │   │   ├── next.svg
+│   │   │   ├── vercel.svg
+│   │   │   └── window.svg
+│   │   ├── README.md
+│   │   ├── styles
+│   │   │   └── globals.css
+│   │   └── tsconfig.json
+│   └── version2
+│       ├── app
+│       │   ├── favicon.ico
+│       │   ├── globals.css
+│       │   ├── layout.tsx
+│       │   └── page.tsx
+│       ├── eslint.config.mjs
+│       ├── next.config.ts
+│       ├── package-lock.json
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── public
+│       │   ├── file.svg
+│       │   ├── globe.svg
+│       │   ├── next.svg
+│       │   ├── vercel.svg
+│       │   └── window.svg
+│       ├── README.md
+│       └── tsconfig.json
+├── Go
+│   ├── go_binary.go
+│   └── hello.go
+├── Java
+│   ├── codewars
+│   │   ├── Hello.java
+│   │   ├── Plural.java
+│   │   └── PythagoreanTriple.java
+│   ├── DSA
+│   │   ├── DataStructures_Algorithms
+│   │   ├── getterSetter.java
+│   │   ├── java_intermediate_notes.md
+│   │   ├── java_intermediate_roadmap.md
+│   │   ├── matrix.java
+│   │   ├── new_pattern.class
+│   │   ├── new_pattern.java
+│   │   ├── Palindrome.java
+│   │   ├── pattern.java
+│   │   ├── pivot_number.java
+│   │   ├── PythagoreanTriple.java
+│   │   └── threads.java
+│   └── 'Java (Intermediate)'
+│       ├── java_intermediate_notes.md
+│       └── java_intermediate_roadmap.md
+├── Matlab
+│   ├── ceiling_fan.m
+│   ├── 'img and fft img.fig'
+│   ├── running.m
+│   ├── sounds
+│   │   ├── 'ceiling fan.mp3'
+│   │   ├── running.mp3
+│   │   ├── traffic.mp3
+│   │   └── 'walking up stairs.mp3'
+│   ├── traffic.m
+│   └── walking_up_stairs.m
+├── nano.85432.save
+├── Python
+│   ├── add.py
+│   ├── brrPatapim
+│   ├── ceasercypher.py
+│   ├── codewars
+│   │   ├── mix_sum.py
+│   │   └── sum.py
+│   ├── coding_tracker
+│   │   ├── coding_progress.csv
+│   │   └── tracker.py
+│   ├── experiments
+│   │   ├── 2autocorr.py
+│   │   ├── autoandcrosscorellation.py
+│   │   ├── circular_convolution.py
+│   │   ├── freq.py
+│   │   ├── linear_conv.py
+│   │   ├── plotconv.py
+│   │   ├── sin_signal.py
+│   │   └── timedomfeatures.py
+│   ├── gui.py
+│   ├── Hello.py
+│   ├── Helo.py
+│   ├── num_guesser.py
+│   ├── numberGuesser.py
+│   ├── Numpy.ipynb
+│   ├── python_notes.py
+│   ├── python_roadmap.py
+│   ├── Racing.py
+│   ├── root_locus.py
+│   └── sub.py
+├── README.md
+├── Ruby
+│   └── init.rb
+├── Rust
+│   ├── example
+│   │   ├── Cargo.lock
+│   │   ├── Cargo.toml
+│   │   ├── src
+│   │   │   └── main.rs
+│   │   └── target
+│   │       ├── CACHEDIR.TAG
+│   │       └── debug
+│   │           ├── deps
+│   │           │   ├── aho_corasick-37457ce8aef7bacd.d
+│   │           │   ├── example-214c59c475d173d3
+│   │           │   ├── example-214c59c475d173d3.d
+│   │           │   ├── ferris_says-9406c2727a1ad214.d
+│   │           │   ├── libaho_corasick-37457ce8aef7bacd.rlib
+│   │           │   ├── libaho_corasick-37457ce8aef7bacd.rmeta
+│   │           │   ├── libferris_says-9406c2727a1ad214.rlib
+│   │           │   ├── libferris_says-9406c2727a1ad214.rmeta
+│   │           │   ├── libmemchr-da4bd2e233380ced.rlib
+│   │           │   ├── libmemchr-da4bd2e233380ced.rmeta
+│   │           │   ├── libregex-14afb3034c4b6109.rlib
+│   │           │   ├── libregex-14afb3034c4b6109.rmeta
+│   │           │   ├── libregex_automata-ab322560fd58b36b.rlib
+│   │           │   ├── libregex_automata-ab322560fd58b36b.rmeta
+│   │           │   ├── libregex_syntax-8b618c0f145bdb49.rlib
+│   │           │   ├── libregex_syntax-8b618c0f145bdb49.rmeta
+│   │           │   ├── libsmallvec-7c38ce4612411b01.rlib
+│   │           │   ├── libsmallvec-7c38ce4612411b01.rmeta
+│   │           │   ├── libsmawk-0b5974c844b48c82.rlib
+│   │           │   ├── libsmawk-0b5974c844b48c82.rmeta
+│   │           │   ├── libtextwrap-ed4e5d898950c334.rlib
+│   │           │   ├── libtextwrap-ed4e5d898950c334.rmeta
+│   │           │   ├── libunicode_linebreak-3f791fc02d4ea9e2.rlib
+│   │           │   ├── libunicode_linebreak-3f791fc02d4ea9e2.rmeta
+│   │           │   ├── libunicode_width-88a97df96e61fe31.rlib
+│   │           │   ├── libunicode_width-88a97df96e61fe31.rmeta
+│   │           │   ├── libunicode_width-6657215390806234.rlib
+│   │           │   ├── libunicode_width-6657215390806234.rmeta
+│   │           │   ├── memchr-da4bd2e233380ced.d
+│   │           │   ├── regex-14afb3034c4b6109.d
+│   │           │   ├── regex_automata-ab322560fd58b36b.d
+│   │           │   ├── regex_syntax-8b618c0f145bdb49.d
+│   │           │   ├── smallvec-7c38ce4612411b01.d
+│   │           │   ├── smawk-0b5974c844b48c82.d
+│   │           │   ├── textwrap-ed4e5d898950c334.d
+│   │           │   ├── unicode_linebreak-3f791fc02d4ea9e2.d
+│   │           │   ├── unicode_width-88a97df96e61fe31.d
+│   │           │   └── unicode_width-6657215390806234.d
+│   │           ├── example
+│   │           ├── example.d
+│   │           └── incremental
+│   │               └── example-25d0ohf42d528
+│   │                   ├── s-hg6kntzcxr-13f9p0e-3vu2hux2mwt3io3vjmj74e7sc
+│   │                   │   ├── 1dkpchddq6lbxwfvjyjq80a2a.o
+│   │                   │   ├── 1m7o4ssafrjwkhhm3hhqs4iph.o
+│   │                   │   ├── 1xid4dj6qliozal6jzrae8v4g.o
+│   │                   │   ├── 2kihnd8tygmgwb83p3e5uilt2.o
+│   │                   │   ├── 2ycrqorgdf75m0tcuhcvjsuvo.o
+│   │                   │   ├── 3hp02y1ucu6pxghvc4ry8zhke.o
+│   │                   │   ├── 4fqhw4cx4tniuzyk5xsir6k60.o
+│   │                   │   ├── 5ibl3wjn159m47sxw1mrykuq0.o
+│   │                   │   ├── 5iy1z2iyfnbuspu4ahskbvxet.o
+│   │                   │   ├── 5nvk4fdjdys294a812f8rwm52.o
+│   │                   │   ├── 6hdm22x9paebs6dq2y22v1cuf.o
+│   │                   │   ├── 6ho25xo0sn3fghlq34tfivwcr.o
+│   │                   │   ├── 6kcvv8szmlsjwaop01ryrqrhd.o
+│   │                   │   ├── 6yjgaojojpv12ny70p95wcn34.o
+│   │                   │   ├── 6yyrdavc3dzyvvjm0w08juzcr.o
+│   │                   │   ├── 7i6a6kukse3joveflu5atuocw.o
+│   │                   │   ├── 7qsabw7kjdvjd4wpec3cr758s.o
+│   │                   │   ├── 7zwwik9b9an849p3c3m0wcus9.o
+│   │                   │   ├── 8gvfhc83gsjz4nvzph8cm3f0i.o
+│   │                   │   ├── 9c4ysbponj6rv62usd9rkqz4t.o
+│   │                   │   ├── 9ttnzsbv56kjhiic4jtwsmaes.o
+│   │                   │   ├── 9xc4hxy1ylb18dbfr2gakk7ja.o
+│   │                   │   ├── 80muokhj5l73jqm0vqrx93b40.o
+│   │                   │   ├── 97mpn2dknebsmlq1iwxg1r67p.o
+│   │                   │   ├── 422r4u8ikynyt23o26l8i5gto.o
+│   │                   │   ├── 439rjcuqzps6t6iap0tvdqmqx.o
+│   │                   │   ├── 481ovtcmozg2ahuz0b26zw88j.o
+│   │                   │   ├── 39067walky67es8v3k9ewkx4z.o
+│   │                   │   ├── ae1rk4e6cbl4fledyosoo2x7c.o
+│   │                   │   ├── ammpnk7j7i4t4xj38seekh4a2.o
+│   │                   │   ├── c6k5dvn9j2a3jig4uwvrwgtad.o
+│   │                   │   ├── cd8umfvrdt9xh25nd3tubvst7.o
+│   │                   │   ├── ch2b7imsuberv66iaq1mjfu8j.o
+│   │                   │   ├── crslhvjm4hoi1b3798fr5mcvn.o
+│   │                   │   ├── dep-graph.bin
+│   │                   │   ├── dfghwt98bef133qvc39w9pvyc.o
+│   │                   │   ├── dixshhpw9y3y1nkkul0j4xxmv.o
+│   │                   │   ├── drtxp13mn8tqwr2ksy93917ej.o
+│   │                   │   ├── duaztk0cx7bnpxnnqbvaqmq3t.o
+│   │                   │   ├── dw601mnhdrudgb2uzntriy6hs.o
+│   │                   │   ├── dxs9t6vc8oarf91mzxna8me2i.o
+│   │                   │   ├── e0b45gcusdtclivyke3gwsunl.o
+│   │                   │   ├── e2q7gcuojdx74ajgioo2g0jkk.o
+│   │                   │   ├── elzdjy6l14y10qtq1j6wq6cej.o
+│   │                   │   ├── query-cache.bin
+│   │                   │   └── work-products.bin
+│   │                   └── s-hg6kntzcxr-13f9p0e.lock
+│   ├── example.rs
+│   ├── hello_world
+│   │   ├── Cargo.lock
+│   │   ├── Cargo.toml
+│   │   ├── src
+│   │   │   └── main.rs
+│   │   └── target
+│   │       ├── CACHEDIR.TAG
+│   │       └── debug
+│   │           ├── deps
+│   │           │   ├── aho_corasick-37457ce8aef7bacd.d
+│   │           │   ├── ferris_says-9406c2727a1ad214.d
+│   │           │   ├── hello_world-588172f79ff7d7de
+│   │           │   ├── hello_world-588172f79ff7d7de.d
+│   │           │   ├── hello_world-d69fa42a5938e9ac
+│   │           │   ├── hello_world-d69fa42a5938e9ac.d
+│   │           │   ├── libaho_corasick-37457ce8aef7bacd.rlib
+│   │           │   ├── libaho_corasick-37457ce8aef7bacd.rmeta
+│   │           │   ├── libferris_says-9406c2727a1ad214.rlib
+│   │           │   ├── libferris_says-9406c2727a1ad214.rmeta
+│   │           │   ├── libmemchr-da4bd2e233380ced.rlib
+│   │           │   ├── libmemchr-da4bd2e233380ced.rmeta
+│   │           │   ├── libregex-14afb3034c4b6109.rlib
+│   │           │   ├── libregex-14afb3034c4b6109.rmeta
+│   │           │   ├── libregex_automata-ab322560fd58b36b.rlib
+│   │           │   ├── libregex_automata-ab322560fd58b36b.rmeta
+│   │           │   ├── libregex_syntax-8b618c0f145bdb49.rlib
+│   │           │   ├── libregex_syntax-8b618c0f145bdb49.rmeta
+│   │           │   ├── libsmallvec-7c38ce4612411b01.rlib
+│   │           │   ├── libsmallvec-7c38ce4612411b01.rmeta
+│   │           │   ├── libsmawk-0b5974c844b48c82.rlib
+│   │           │   ├── libsmawk-0b5974c844b48c82.rmeta
+│   │           │   ├── libtextwrap-ed4e5d898950c334.rlib
+│   │           │   ├── libtextwrap-ed4e5d898950c334.rmeta
+│   │           │   ├── libunicode_linebreak-3f791fc02d4ea9e2.rlib
+│   │           │   ├── libunicode_linebreak-3f791fc02d4ea9e2.rmeta
+│   │           │   ├── libunicode_width-88a97df96e61fe31.rlib
+│   │           │   ├── libunicode_width-88a97df96e61fe31.rmeta
+│   │           │   ├── libunicode_width-6657215390806234.rlib
+│   │           │   ├── libunicode_width-6657215390806234.rmeta
+│   │           │   ├── memchr-da4bd2e233380ced.d
+│   │           │   ├── regex-14afb3034c4b6109.d
+│   │           │   ├── regex_automata-ab322560fd58b36b.d
+│   │           │   ├── regex_syntax-8b618c0f145bdb49.d
+│   │           │   ├── smallvec-7c38ce4612411b01.d
+│   │           │   ├── smawk-0b5974c844b48c82.d
+│   │           │   ├── textwrap-ed4e5d898950c334.d
+│   │           │   ├── unicode_linebreak-3f791fc02d4ea9e2.d
+│   │           │   ├── unicode_width-88a97df96e61fe31.d
+│   │           │   └── unicode_width-6657215390806234.d
+│   │           ├── hello_world
+│   │           ├── hello_world.d
+│   │           └── incremental
+│   │               ├── hello_world-1m9itw5d19m3b
+│   │               │   ├── s-hg6kkf7vps-0fe5s9y-8w5gt0z6on45bzf35sk6lx260
+│   │               │   │   ├── 0e2s6x8m3w60es0a4gi16dnmb.o
+│   │               │   │   ├── 440uq86qhhl6rbv2xox6fvd9s.o
+│   │               │   │   ├── ah1oru1ev8443pn7g9si4be0h.o
+│   │               │   │   ├── brq6uv1a2oi89d1m6j6p4cau4.o
+│   │               │   │   ├── c0dxtxnz1wc2e9vg7pu89utlr.o
+│   │               │   │   ├── dep-graph.bin
+│   │               │   │   ├── egq4fh4fbjpo5qupjuuxjxywr.o
+│   │               │   │   ├── query-cache.bin
+│   │               │   │   └── work-products.bin
+│   │               │   └── s-hg6kkf7vps-0fe5s9y.lock
+│   │               └── hello_world-15np6cltq9e7j
+│   │                   ├── s-hg6jigifn0-1cmcp5k-8l48qiud9ytbwmqbng4phjdd6
+│   │                   │   ├── 6spn1g6t5d5i652pa2q2jsnck.o
+│   │                   │   ├── 8gs2bxl8g9j794i5e4jqjqkvm.o
+│   │                   │   ├── 9h78fm08cyz8353noxybc06bs.o
+│   │                   │   ├── aa61c2awkfocoks5n4gkivo3g.o
+│   │                   │   ├── cs6l92uqif0e5jm7epcj2oknf.o
+│   │                   │   ├── dep-graph.bin
+│   │                   │   ├── ezx2y5v6m2ac9hs8192w5c2wt.o
+│   │                   │   ├── query-cache.bin
+│   │                   │   └── work-products.bin
+│   │                   └── s-hg6jigifn0-1cmcp5k.lock
+│   ├── main
+│   └── main.rs
+├── SQL
+│   ├── 'Local MariaDB.session.sql'
+│   ├── 'New Database.odb'
+│   └── tutorial.sql
+└── Verilog
+    ├── a.out
+    ├── carry_look_ahead_adder.v
+    ├── carry_look_ahead_adder_tb.v
+    ├── carry_ripple_adder
+    ├── carry_ripple_adder.v
+    ├── carry_ripple_adder.vcd
+    ├── carry_ripple_adder_tb.v
+    ├── fa
+    ├── full_adder.v
+    ├── full_adder.vcd
+    ├── full_adder_tb.v
+    ├── seq_tb
+    ├── seqdet.vcd
+    ├── sequence_Detecter.v
+    └── sequence_Detecter_tb.v
